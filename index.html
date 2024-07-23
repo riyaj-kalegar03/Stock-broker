@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Broker Client Web Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5">Stock Broker</h1>
+
+      <form id="loginForm" class="mt-5">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+
+      <div id="stockSubscription" class="mt-5 d-none">
+        <h4 id="username"></h4>
+        <p>Choose the stocks, and press the subscribe button below</p>
+        <div class="StockTickers">
+          <div type="button" class="ticker" id="goog">GOOG</div>
+          <div type="button" class="ticker" id="tsla">TSLA</div>
+          <div type="button" class="ticker" id="amzn">AMZN</div>
+          <div type="button" class="ticker" id="meta">META</div>
+          <div type="button" class="ticker" id="nvda">NVDA</div>
+        </div>
+        <h3>Subscribe to Stocks</h3>
+        <form id="subscriptionForm">
+          <div class="form-group">
+            <label for="stockTicker">Stock Ticker Code:</label>
+            <input type="text" class="form-control" id="stockTicker" required />
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+
+        <div id="subscribedStocks" class="mt-4">
+          <h4>Subscribed Stocks</h4>
+          <ul class="list-group" id="stockList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
