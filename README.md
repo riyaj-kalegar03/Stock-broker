@@ -24,7 +24,7 @@ The Stock Broker Client Web Dashboard is an interactive platform where users can
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/stock-broker-client.git
+   git clone https://github.com/riyaj-kalegar03/Assignment-2.git
    cd stock-broker-client
    ```
 
