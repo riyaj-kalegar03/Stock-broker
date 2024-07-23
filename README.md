@@ -1,6 +1,6 @@
 # Stock Broker Client Web Dashboard
 
-![Stock Broker Client](./path/to/your/screenshot.png)
+
 
 ## Overview
 
