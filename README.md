@@ -50,6 +50,7 @@ The Stock Broker Client Web Dashboard is an interactive platform where users can
 ![Stock Broker Client](./assets/Screenshot%202024-07-23%20150437.png)
 ![Stock Broker Client](./assets/Screenshot%202024-07-23%20150500.png)
 ![Stock Broker Client](./assets/Screenshot%202024-07-23%20150521.png)
+![Stock Broker Client](./assets/image.png)
 
 ## Contributing
 
